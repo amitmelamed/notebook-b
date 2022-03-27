@@ -26,7 +26,6 @@ namespace ariel {
     class Notebook {
         std::map<int, std::map<int, string> > pagesOfRowsOfStrings;
     public:
-        Notebook();
 
         void write(int page, int row, int col, Direction dir, string text);
 
